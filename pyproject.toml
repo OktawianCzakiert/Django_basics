@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "homework10"
+version = "0.1.0"
+description = ""
+authors = ["Oktawian Czakiert <110773676+OktawianCzakiert@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.1"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+certifi = "^2023.11.17"
+mongoengine = "^0.27.0"
+pillow = "^10.2.0"
+django-environ = "^0.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
